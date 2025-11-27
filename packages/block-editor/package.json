@@ -1,6 +1,6 @@
 {
-	"name": "@wordpress/block-editor",
-	"version": "15.9.0",
+	"name": "@altra-corp/wp-block-editor",
+	"version": "1.0.0-altra.0",
 	"description": "Generic block editor.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -10,14 +10,14 @@
 		"editor",
 		"blocks"
 	],
-	"homepage": "https://github.com/WordPress/gutenberg/tree/HEAD/packages/block-editor/README.md",
+	"homepage": "https://github.com/altra-corp/azc-gutenberg/tree/HEAD/packages/block-editor/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/WordPress/gutenberg.git",
+		"url": "https://github.com/altra-corp/azc-gutenberg.git",
 		"directory": "packages/block-editor"
 	},
 	"bugs": {
-		"url": "https://github.com/WordPress/gutenberg/issues"
+		"url": "https://github.com/altra-corp/azc-gutenberg/issues"
 	},
 	"engines": {
 		"node": ">=18.12.0",
@@ -102,8 +102,8 @@
 		"postcss": "^8.4.21",
 		"postcss-prefix-selector": "^1.16.0",
 		"postcss-urlrebase": "^1.4.0",
-		"react-autosize-textarea": "^7.1.0",
 		"react-easy-crop": "^5.0.6",
+		"react-textarea-autosize": "^8.5.0",
 		"remove-accents": "^0.5.0"
 	},
 	"peerDependencies": {
