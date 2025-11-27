@@ -1,6 +1,6 @@
 {
 	"name": "@altra-corp/wp-block-editor",
-	"version": "1.0.0-altra.0",
+	"version": "1.0.0-altra.1",
 	"description": "Generic block editor.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
