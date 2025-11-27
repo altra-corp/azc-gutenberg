@@ -1,6 +1,6 @@
 {
 	"name": "@altra-corp/wp-block-editor",
-	"version": "1.0.0-altra.1",
+	"version": "1.0.0-altra.2",
 	"description": "Generic block editor.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
@@ -38,6 +38,7 @@
 	"wpScriptModuleExports": {
 		"./utils/fit-text-frontend": "./build-module/utils/fit-text-frontend.js"
 	},
+	"types": "types/index.d.ts",
 	"sideEffects": [
 		"build-style/**",
 		"src/**/*.scss",
@@ -105,6 +106,9 @@
 		"react-easy-crop": "^5.0.6",
 		"react-textarea-autosize": "^8.5.0",
 		"remove-accents": "^0.5.0"
+	},
+	"devDependencies": {
+		"@types/wordpress__block-editor": "^14.21.2"
 	},
 	"peerDependencies": {
 		"react": "^18.0.0",
